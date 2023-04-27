@@ -91,7 +91,7 @@ public class PubsubSinkWithAvroIntegrationTest {
             Assert.assertNull("produce test messages to pulsar should not throw exception", e);
         }
 
-        // test if sink pushed message to sqs successfully
+        // test if sink pushed message to Pub/Sub successfully
         validateSinkResult();
 
         // clean up
